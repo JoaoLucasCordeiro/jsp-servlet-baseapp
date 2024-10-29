@@ -8,4 +8,4 @@ Atualizei o .gitignore
 Criei a branch 'beatrizsantos';
 Criei o script de teste do github actions;
 Coloquei meu nome completo na página 'about';
-Atualizei o Readme com minha demanda;
+Atualizei o Readme com minha demanda.

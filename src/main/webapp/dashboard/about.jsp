@@ -62,7 +62,11 @@ if (session.getAttribute("user") != null) {
 					<td scope="col">Autenticação</th>
 				</tr>
 				<tr>
+<<<<<<< HEAD
 					<td scope="col">Leonardo Vítor Carneiro dos Santos</th>
+=======
+					<td scope="col">João Lucas Soares Cordeiro De Souza</th>
+>>>>>>> main
 					<td scope="col">Coloque aqui sua entidade de trabalho</th>
 					<td scope="col">Coloque aqui sua regra de negócio</th>
 				</tr>

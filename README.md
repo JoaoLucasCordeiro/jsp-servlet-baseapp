@@ -2,4 +2,4 @@
 
 ## Desenolvedores
 
-- Seu nome completo aqui;
+- João Lucas Soares Cordeiro De Souza

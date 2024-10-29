@@ -14,6 +14,15 @@ local.properties
 .loadpath
 .recommenders
 
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+*.jar
+
+# VS Code
+.vscode/
+
 # External tool builders
 .externalToolBuilders/
 

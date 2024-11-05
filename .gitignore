@@ -43,7 +43,7 @@ out/
 
 # PDT-specific (PHP Development Tools)
 .buildpath
-
+.e
 # sbteclipse plugin
 .target
 
@@ -122,3 +122,5 @@ buildNumber.properties
 .classpath
 
 # End of https://www.toptal.com/developers/gitignore/api/eclipse,maven,java
+
+.env

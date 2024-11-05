@@ -18,7 +18,8 @@ services:
     ports:
       - 5432:5432
     volumes:
-      - ${USERPROFILE}/Documentos/Docker/teste/PostgreSQL/baseapp:/var/lib/postgresql/data
+      - ${PG_DATA_PATH}:/var/lib/postgresql/data
+
 
 #  adminer:
 #    image: adminer

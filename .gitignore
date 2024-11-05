@@ -15,8 +15,13 @@ local.properties
 .recommenders
 
 # IntelliJ IDEA
-/.idea/
-/*.iml
+.idea/
+*.iml
+out/
+*.jar
+
+# VS Code
+.vscode/
 
 # External tool builders
 .externalToolBuilders/

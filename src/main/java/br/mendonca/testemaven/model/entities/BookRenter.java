@@ -7,7 +7,6 @@ public class BookRenter {
     private String address;
     private String phoneNumber;
 
-    // Getters and Setters
     public String getId() {
         return id;
     }
@@ -41,7 +40,10 @@ public class BookRenter {
     }
 
     public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
         this.address = address;
-        return "";
     }
 }

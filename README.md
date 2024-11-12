@@ -1,5 +1,6 @@
 # Escreva aqui o tema da equipe, por exemplo (App Universo, App Animais, App Comidas)
 
+# Semana 1
 ## Desenolvedores
 - Beatriz Leite dos Santos
 - João Lucas Soares Cordeiro De Souza
@@ -30,3 +31,11 @@ Atualizei o Readme com minha demanda.
 ### link do deploy 
 
 - https://bjlgerencia.onrender.com
+# Semana 3
+
+## Beatriz
+
+- Criação da entidade BookRenter para alocar os livros alugados;
+- Criação da classe BookRenterDTO para transferência de dados de BookRenter;
+- Criação de métodos de registro e listagem de BookRenters no DAO;
+- Criação de serviço para registro e listagem de BookRenters.

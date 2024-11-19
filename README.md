@@ -39,3 +39,11 @@ Atualizei o Readme com minha demanda.
 - Criação da classe BookRenterDTO para transferência de dados de BookRenter;
 - Criação de métodos de registro e listagem de BookRenters no DAO;
 - Criação de serviço para registro e listagem de BookRenters.
+
+# Semana 4
+## Beatriz
+### Demandas
+- O usuário visualiza todos os indivíduos listados por paginação de três indivíduos.
+- O usuário pode deletar um indivíduo cadastrado na listagem; no entanto, o indivíduo não é apagado do banco, apenas marcado como não visível.
+- O usuário, através de um item de menu, pode listar os "ocultos".
+- Atualizar README.md.

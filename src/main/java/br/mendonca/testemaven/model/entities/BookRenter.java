@@ -6,6 +6,7 @@ public class BookRenter {
     private String email;
     private String address;
     private String phoneNumber;
+    private boolean visible;
 
     public String getId() {
         return id;
@@ -31,6 +32,13 @@ public class BookRenter {
         this.email = email;
     }
 
+    public boolean isVisible() {
+        return visible;
+    }
+
+    public void setVisible(boolean visible) {
+        this.visible = visible;
+    }
     public String getPhoneNumber() {
         return phoneNumber;
     }

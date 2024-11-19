@@ -19,6 +19,7 @@ public class BookRenterService {
             renter.setEmail(dto.getEmail());
             renter.setAddress(dto.getAddress());
             renter.setPhoneNumber(dto.getPhoneNumber());
+            renter.setVisible(true);
             dao.register(renter);
         }
     }
@@ -27,8 +28,19 @@ public class BookRenterService {
         register(renters);
     }
 
-    public List<BookRenter> listAllRenters() throws ClassNotFoundException, SQLException {
+    public List<BookRenter> listAllRenters(int page, int size) throws ClassNotFoundException, SQLException {
         BookRenterDAO dao = new BookRenterDAO();
-        return dao.listAllRenters();
+        int offset = (page - 1) * size;
+        return dao.listAllRenters(offset, size);
+    }
+
+    public void markAsHidden(String id) throws ClassNotFoundException, SQLException {
+        BookRenterDAO dao = new BookRenterDAO();
+        dao.markAsHidden(id);
+    }
+
+    public List<BookRenter> listHiddenRenters() throws ClassNotFoundException, SQLException {
+        BookRenterDAO dao = new BookRenterDAO();
+        return dao.listHiddenRenters();
     }
 }

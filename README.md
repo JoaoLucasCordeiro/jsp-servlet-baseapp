@@ -47,3 +47,7 @@ Atualizei o Readme com minha demanda.
 - O usuário pode deletar um indivíduo cadastrado na listagem; no entanto, o indivíduo não é apagado do banco, apenas marcado como não visível.
 - O usuário, através de um item de menu, pode listar os "ocultos".
 - Atualizar README.md.
+- Preenchendo com a regra de negócio escolhida a página About, entre 2 e 5.
+- O usuário poderá, na lista de usuários, selecionar um usuário para seguir e
+através do endpoint "Seguindo" visualizar quem ele está seguindo e deixar de seguir.
+- Atualizar README.md.

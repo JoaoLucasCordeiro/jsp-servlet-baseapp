@@ -1,6 +1,8 @@
+version: '3.8'
+
 services:
   jsp-app:
-    build: 
+    build:
       context: .
       dockerfile: Dockerfile.dev
     volumes:
@@ -9,12 +11,18 @@ services:
       - postgres
     ports:
       - 8080:8080
+    environment:
+      - DB_HOST=${DB_HOST}
+      - DB_PORT=${DB_PORT}
+      - DB_USERNAME=${DB_USERNAME}
+      - DB_PASSWORD=${DB_PASSWORD}
+      - DB_NAME=${DB_NAME}
 
   postgres:
     image: postgres
     environment:
-      POSTGRES_USERNAME: "postgres"
-      POSTGRES_PASSWORD: "postgres"
+      POSTGRES_USERNAME: "${DB_USERNAME}"
+      POSTGRES_PASSWORD: "${DB_PASSWORD}"
     ports:
       - 5432:5432
     volumes:
